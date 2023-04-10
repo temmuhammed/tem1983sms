@@ -243,7 +243,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("tem1983sms was created by SpeedX")
+    mesgdcrt.SuccessMessage("tem1983sms was created by tem1983")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
