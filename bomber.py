@@ -243,7 +243,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("tem1983sms was created by tem1983")
+    mesgdcrt.SuccessMessage("tem1983sms was created by Muhammed")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -374,7 +374,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ = ['Muhammed', 't0xic0der', 'scpketer', 'Stefan']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
@@ -394,7 +394,7 @@ tem1983sms is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
-                                 epilog='Coded by SpeedX !!!')
+                                 epilog='Coded by Muhammed !!!')
 parser.add_argument("-sms", "--sms", action="store_true",
                     help="start tem1983sms with SMS Bomb mode")
 parser.add_argument("-call", "--call", action="store_true",
